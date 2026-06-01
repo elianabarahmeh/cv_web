@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eliana CV Website</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f8f8f8;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:40px;
+    animation:fadein 2s;
+}
+
+.profile{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    border:5px solid white;
+    margin-bottom:15px;
+}
+
+header h1{
+    text-shadow:2px 2px 5px black;
+}
+
+nav{
+    background:#43a047;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#e8f5e9;
+}
+
+.card{
+    background:white;
+    width:80%;
+    margin:20px auto;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    transition:0.5s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+}
+
+h2{
+    color:#2e7d32;
+    margin-bottom:15px;
+}
+
+.bar{
+    width:100%;
+    background:#ddd;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.skill{
+    height:20px;
+    border-radius:10px;
+}
+
+.html{
+    width:90%;
+    background:#2196f3;
+}
+
+.css{
+    width:85%;
+    background:#4caf50;
+}
+
+.js{
+    width:75%;
+    background:#ff9800;
+}
+
+.office{
+    width:80%;
+    background:#9c27b0;
+}
+
+.erp{
+    width:70%;
+    background:#009688;
+}
+
+input,
+textarea,
+select{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    background:#2e7d32;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    margin-top:15px;
+    cursor:pointer;
+    border-radius:8px;
+}
+
+button:hover{
+    background:#1b5e20;
+}
+
+footer{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+#quote{
+    font-style:italic;
+    color:#555;
+}
+
+@keyframes fadein{
+
+from{
+opacity:0;
+}
+
+to{
+opacity:1;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="profile.jpg.JFIF" class="profile">
+
+<h1>Eliana</h1>
+
+<p>Business Information Systems Student</p>
+
+<p>Future Business Analyst & Web Developer</p>
+
+</header>
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<div class="card">
+
+<h2>Personal Information</h2>
+
+<p><b>Name:</b> Eliana</p>
+<p><b>Location:</b> Jenin, Palestine</p>
+<p><b>Email:</b> elianabarahmeh23@gmail.com</p>
+<p><b>Phone:</b> +970 594339769</p>
+
+</div>
+
+<div class="card" id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am a Business Information Systems student with an interest in
+Information Technology, ERP Systems, Business Analysis,
+Digital Transformation, and Web Development.
+I enjoy learning new technologies and participating in academic
+projects that improve my technical and analytical skills.
+</p>
+
+</div>
+
+<div class="card" id="education">
+
+<h2>Education</h2>
+
+<ul>
+<li>Business Information Systems</li>
+<li>Arab American University</li>
+<li>Expected Graduation: 2026</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Languages</h2>
+
+<select>
+<option>Arabic</option>
+<option>English</option>
+</select>
+
+</div>
+
+<div class="card" id="skills">
+
+<h2>Technical Skills</h2>
+
+<p>HTML</p>
+<div class="bar">
+<div class="skill html"></div>
+</div>
+
+<p>CSS</p>
+<div class="bar">
+<div class="skill css"></div>
+</div>
+
+<p>JavaScript</p>
+<div class="bar">
+<div class="skill js"></div>
+</div>
+
+<p>Microsoft Office</p>
+<div class="bar">
+<div class="skill office"></div>
+</div>
+
+<p>ERP Concepts</p>
+<div class="bar">
+<div class="skill erp"></div>
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Preferred Work Type</h2>
+
+<input type="radio" name="work"> Remote
+
+<br><br>
+
+<input type="radio" name="work"> On Site
+
+</div>
+
+<div class="card">
+
+<h2>Experience</h2>
+
+<ul>
+<li>Business Analysis Projects</li>
+<li>ERP Systems Academic Projects</li>
+<li>Research and Presentation Preparation</li>
+<li>Web Development Projects Using HTML, CSS and JavaScript</li>
+</ul>
+
+</div>
+
+<div class="card" id="projects">
+
+<h2>Projects</h2>
+
+<ul>
+
+<li>Personal CV Website</li>
+
+<li>Business Continuity Planning Report</li>
+
+<li>ERP Systems Research Project</li>
+
+<li>AI Driven Digital Marketing Presentation</li>
+
+<li>Business and IT Alignment Analysis</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Random Motivation Quote</h2>
+
+<p id="quote"></p>
+
+</div>
+
+<div class="card" id="contact">
+
+<h2>Contact Me</h2>
+
+<input
+type="text"
+id="name"
+placeholder="Enter Your Name">
+
+<textarea
+id="message"
+rows="5"
+placeholder="Write Your Message">
+</textarea>
+
+<button onclick="sendMessage()">
+Send Message
+</button>
+
+<p id="result"></p>
+
+</div>
+
+<footer>
+
+<p>© 2026 Eliana CV Website</p>
+
+</footer>
+
+<script>
+
+function sendMessage(){
+
+let userName =
+document.getElementById("name").value;
+
+document.getElementById("result").innerHTML =
+"Thank you " + userName +
+" for visiting my CV website.";
+
+}
+
+let quotes = [
+
+"Never Stop Learning",
+
+"Success Comes With Practice",
+
+"Dream Big And Work Hard",
+
+"Technology Creates New Opportunities",
+
+"Learning Today Leads To Success Tomorrow"
+
+];
+
+let randomIndex =
+Math.floor(Math.random() * quotes.length);
+
+document.getElementById("quote").innerHTML =
+quotes[randomIndex];
+
+</script>
+
+</body>
+</html>
